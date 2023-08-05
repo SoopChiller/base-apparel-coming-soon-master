@@ -75,6 +75,8 @@ body {
 
 #email-container {
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 #email-bar {
@@ -141,11 +143,11 @@ input:focus {
 
 
 @media screen and (max-device-width: 414px) {
- 
+  
+  
 
   #hero-container {
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 60px;
   }
 
   #hero {
@@ -160,6 +162,9 @@ input:focus {
     width: 0.25rem;
     height: 1.30538rem;
     flex-shrink: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+    margin-right: 300px;
   }
 
   #content-container {
@@ -167,7 +172,6 @@ input:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
   }
 
   #mobile-hero {
@@ -211,6 +215,9 @@ input:focus {
     width: 19.4375rem;
     height: 3rem;
     flex-shrink: 0;
+    align-self: center;
+    display: flex;
+    margin-right: 0;
   }
 
   #arrow-button {
