@@ -3,19 +3,19 @@ function getValue() {
   value = value.toLowerCase();
   let correctFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
   if(value === '' || !value.match(correctFormat)) {
-    document.getElementById('email-bar').style.cssText = `
+    let emailBar = document.getElementById('email-bar').style.cssText = `
       border: 2px solid  #F96464;
     `
-    document.getElementById('arrow-button').style.cssText = `
+    let arrowButton = document.getElementById('arrow-button').style.cssText = `
       left: 22.1rem;
       top: 0.00rem;
       width: 6.25rem;
       height: 3.70rem;
       flex-shrink: 0
     `
-    document.getElementById('valid-email').style.display = 'block';
+    let validEmail = document.getElementById('valid-email').style.display = 'block';
 
-    document.getElementById('error').style.display = 'block'
+    let error = document.getElementById('error').style.display = 'block'
   }
 }
 
@@ -24,10 +24,10 @@ function mobile() {
   value = value.toLowerCase();
   let correctFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
   if(value === '' || !value.match(correctFormat)) {
-    document.getElementById('email-bar').style.cssText = `
+    let emailBar = document.getElementById('email-bar').style.cssText = `
       border: 2px solid  #F96464;
     `
-    document.getElementById('arrow-button').style.cssText = `
+    let arrowButton = document.getElementById('arrow-button').style.cssText = `
       left: 15.90rem;
       bottom: 2.10rem;
       width: 4rem;
@@ -35,9 +35,9 @@ function mobile() {
       flex-shrink: 0;
       background-image: linear-gradient(to right,hsl(0, 80%, 86%),  hsl(0, 74%, 74%));
     `
-    document.getElementById('valid-email').style.display = 'block';
+    let validEmail = document.getElementById('valid-email').style.display = 'block';
 
-    document.getElementById('email-container').style.flexDirection = 'column';
+    let emailConainer = document.getElementById('email-container').style.flexDirection = 'column';
 
     let error = document.getElementById('error');
 
