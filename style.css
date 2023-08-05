@@ -33,6 +33,7 @@ body {
   position: absolute;
   left: 160px;
   top: 50px;
+  min-height: 663.72px;
 }
 
 #logo {
@@ -77,6 +78,7 @@ body {
   position: relative;
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 
 #email-bar {
@@ -92,7 +94,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 1.75rem;
-  text-indent: 1.5rem; 
+  text-indent: 1.7rem; 
 }
 
 #arrow-button {
@@ -125,7 +127,7 @@ input:focus {
 #valid-email {
   color: #F96464;
   margin-top: 16px;
-  margin-left: 26px;
+  margin-right: 186px;
   font-weight: 400;
   display: none;
 }
@@ -141,10 +143,16 @@ input:focus {
   display: none;
 }
 
+.two {
+  display: none;
+}
+
 
 @media screen and (max-device-width: 414px) {
   
-  
+ .one {
+    display: none;
+  }
 
   #hero-container {
     margin-bottom: 60px;
@@ -159,8 +167,8 @@ input:focus {
   }
 
   #logo {
-    width: 0.25rem;
-    height: 1.30538rem;
+    width: 8px;
+    height: 1px;
     flex-shrink: 0;
     margin-top: 0;
     margin-bottom: 50px;
@@ -172,6 +180,7 @@ input:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-height: 663.72px;
   }
 
   #mobile-hero {
@@ -213,7 +222,7 @@ input:focus {
 
   #email-bar {
     width: 19.4375rem;
-    height: 3rem;
+    height: 2.90rem;
     flex-shrink: 0;
     align-self: center;
     display: flex;
@@ -225,5 +234,12 @@ input:focus {
     height: 3rem;
     flex-shrink: 0;
     left: 16rem;
+    bottom: 0.11rem;
   }
+
+  #valid-email {
+    
+    margin-right: 52px;
+  }
+  
 }

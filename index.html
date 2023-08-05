@@ -26,8 +26,8 @@
         <h1 id="heading"><span id="were">WE'RE</span><br> COMING<br> SOON</h1>
 
         <p id="greeting">
-          Hello fellow shoppers! We're currently building our new <br> fashion store. 
-          Add your email below to stay up-to-date with <br> announcements and our launch deals.
+          Hello fellow shoppers! We're currently building <br class="two"> our new <br class="one"> fashion store. 
+          Add your email below to <br class="two"> stay up-to-date with <br class="one"> announcements and our <br class="two"> launch deals.
         </p>
 
         <div id="email-container">
@@ -35,7 +35,13 @@
           <img id="error" src="images/icon-error.svg" alt="">
           <div>
             <button onclick="
-              getValue()
+              let w = parseInt(window.innerWidth);
+
+              if(w > 415) {
+                getValue();
+              } else {
+                mobile();
+              }
             
             " id="arrow-button"><img src="images/icon-arrow.svg" alt=""></button>
           </div>
