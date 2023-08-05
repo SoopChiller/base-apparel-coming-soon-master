@@ -6,6 +6,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 #hero-container {
@@ -30,10 +31,8 @@ body {
 #content-container {
   font-family: 'Josefin Sans', sans-serif;
   position: absolute;
-  
   left: 160px;
   top: 50px;
-  
 }
 
 #logo {
@@ -134,4 +133,90 @@ input:focus {
   left: 19.50rem;
   top: 1rem;
   display: none;
+}
+
+#mobile-hero {
+  display: none;
+}
+
+
+@media screen and (max-device-width: 414px) {
+ 
+
+  #hero-container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  #hero {
+    display: none;
+  }
+
+  #pattern {
+    display: none;
+  }
+
+  #logo {
+    width: 0.25rem;
+    height: 1.30538rem;
+    flex-shrink: 0;
+  }
+
+  #content-container {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  #mobile-hero {
+    display: block;
+    
+  }
+
+  #were {
+    color: #CE9898;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2.625rem; /* 105% */
+    letter-spacing: 0.67656rem;
+  }
+
+  #heading {
+    color: #423A3A;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.625rem; /* 105% */
+    letter-spacing: 0.67656rem;
+  }
+
+  #greeting {
+    color: #CE9898;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.375rem; 
+  }
+
+  #email-bar {
+    width: 19.4375rem;
+    height: 3rem;
+    flex-shrink: 0;
+  }
+
+  #arrow-button {
+    width: 4rem;
+    height: 3rem;
+    flex-shrink: 0;
+    left: 16rem;
+  }
 }
