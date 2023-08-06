@@ -29,19 +29,21 @@ function mobile() {
     `
     let arrowButton = document.getElementById('arrow-button').style.cssText = `
       left: 16rem;
-      bottom: 2rem;
+      bottom: 1.50rem;
       width: 4rem;
       height: 2.90rem;
       flex-shrink: 0;
       background-image: linear-gradient(to right,hsl(0, 80%, 86%),  hsl(0, 74%, 74%));
     `
-    let validEmail = document.getElementById('valid-email').style.display = 'block';
+    let validEmail = document.getElementById('valid-email');
+
+    validEmail.style.cssText = 'display: block; margin-top: 0.50rem;'
 
     let emailConainer = document.getElementById('email-container').style.flexDirection = 'column';
 
     let error = document.getElementById('error');
 
-    error.style.cssText = 'display: block; left: 13.70rem; top: 0.55rem';
+    error.style.cssText = 'display: block; left: 13.70rem; top: 0.68rem';
   }
 }
 
