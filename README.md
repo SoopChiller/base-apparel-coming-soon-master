@@ -1,4 +1,4 @@
-# Base Apparel coming soon page 
+# Base Apparel Page 
 
  
 
@@ -19,14 +19,16 @@
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./desktop-state.png)
+![](./active-desktop-state.png)
+![](./mobile-state.png)
+![](./mobile-active-state.png)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://soopchiller.github.io/base-apparel-coming-soon-master/
 
 ## My process
 
@@ -38,14 +40,5 @@
 - CSS Grid
 - JavaScript
 
-### What I learned
-
-
-
-### Continued development
-
-
-
-### Useful resources
 
 

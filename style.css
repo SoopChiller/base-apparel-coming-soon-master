@@ -115,12 +115,13 @@ body {
   color: white;
   box-shadow: rgba(199, 63, 63, 0.445) 0px 30px 60px -15px, rgba(209, 66, 66, 0.644) 0px 18px 36px -18px;
   cursor: pointer;
-  
+  outline: none;
 }
 
 #arrow-button:hover {
   background-image: linear-gradient(to right, rgb(253, 240, 233) 2.2%, rgb(255, 194, 203) 96.2%);
 }
+
 
 input:focus {
   outline-style: none;
