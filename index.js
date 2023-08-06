@@ -28,10 +28,10 @@ function mobile() {
       border: 2px solid  #F96464;
     `
     let arrowButton = document.getElementById('arrow-button').style.cssText = `
-      left: 15.90rem;
-      bottom: 2.10rem;
+      left: 16rem;
+      bottom: 2rem;
       width: 4rem;
-      height: 2.80rem;
+      height: 2.90rem;
       flex-shrink: 0;
       background-image: linear-gradient(to right,hsl(0, 80%, 86%),  hsl(0, 74%, 74%));
     `
@@ -41,7 +41,7 @@ function mobile() {
 
     let error = document.getElementById('error');
 
-    error.style.cssText = 'display: block; left: 13.70rem; top: 0.75rem';
+    error.style.cssText = 'display: block; left: 13.70rem; top: 0.55rem';
   }
 }
 
