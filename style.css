@@ -241,10 +241,10 @@ input:focus {
 
   #arrow-button {
     width: 4rem;
-    height: 2.70rem;
+    height: 2.85rem;
     flex-shrink: 0;
     left: 16rem;
-    bottom: 0.11rem;
+    bottom: 0.03rem;
   }
 
   #valid-email {
