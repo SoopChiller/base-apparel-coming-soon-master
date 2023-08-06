@@ -14,14 +14,15 @@
   - [Useful resources](#useful-resources)
 
 
-## Overview
+## Screenshots
 
-
-### Screenshot
-
+### Desktop-State 
 ![](./desktop-state.png)
+### Active-Desktop-State
 ![](./active-desktop-state.png)
+### Mobile-State
 ![](./mobile-state.png)
+### Mobile-Active-State
 ![](./mobile-active-state.png)
 
 
